@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Watch Video",
+        "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
+        "time": "35 minutes",
+        "desc": "Watch your programming video certain time."
+    },
+    {
+        "name": "Read Book",
+        "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
+        "time": "30 minutes",
+        "desc": "Read some book about your selected topics."
+    },
+    {
+        "name": "Write Code in Editor",
+        "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
+        "time": "40 minutes",
+        "desc": "Write Code in your code editor what you have watched"
+    },
+    {
+        "name": "Take Notes",
+        "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
+        "time": "20 minutes",
+        "desc": "Take some notes what you have to learn repeatedly."
+    },
+    {
+        "name": "Group Discussion",
+        "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
+        "time": "35 minutes",
+        "desc": "Join a group discussion for a small amount of time."
+    },
+    {
+        "name": "Display Output",
+        "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
+        "time": "10 minutes",
+        "desc": "Run your code and try to display your output as expected."
+    }
+]
