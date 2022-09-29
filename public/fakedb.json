@@ -30,7 +30,7 @@
         "desc": "Join a group discussion for a small amount of time."
     },
     {
-        "name": "Display Output",
+        "name": "Check Output",
         "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
         "time": 10,
         "desc": "Run your code and try to display your output as expected."
