@@ -8,8 +8,7 @@ const Questions = () => {
 
             <SingleQuestion title="Difference Between props and state" answer="State is the local state of the component which cannot be accessed and modified outside of the component. It's equivalent to local variables in a function. Props, on the other hand, make components reusable by giving components the ability to receive data from their parent component in the form of props. State is owned locally and the component itself updates it. Props are owned and read-only by a parent. Props can be changed only if an upstream shift is caused by a callback function passed on to the child."></SingleQuestion>
 
-            <SingleQuestion title="Why should use useEffect hook except data load?" answer="There are so many case you can use useEffect hook except data load. These are State management, Conditional rendering, Toggle flags,
-            Live filtering, Trigger animation on new array value, Update data on fetched API etc."></SingleQuestion>
+            <SingleQuestion title="Why should use useEffect hook except data load?" answer="There are so many case you can use useEffect hook except data load. These are Validate user input, Interact with browser API, Live filtering, use setTimeOut and setInterval function, Cleanup your application."></SingleQuestion>
         </div>
     );
 };
