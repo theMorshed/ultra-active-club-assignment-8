@@ -12,9 +12,9 @@ const Main = () => {
     }
 
     return (
-        <div className='md:flex'>
-            <Excercises handleTime={handleExcerciseTime}></Excercises>            
+        <div className='md:flex md:flex-row-reverse'>
             <Sidebar excerciseTime={excerciseTime}></Sidebar>            
+            <Excercises handleTime={handleExcerciseTime}></Excercises>            
         </div>
     );
 };
