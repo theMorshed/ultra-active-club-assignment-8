@@ -1,3 +1,5 @@
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Author.css';
 
@@ -8,7 +10,7 @@ const Author = () => {
                 <img className='w-16 h-16 rounded-full' src="author.jpg" alt="" />
                 <div className='ml-5'>
                     <p className='text-xl font-semibold'>Manjur Morshed</p>
-                    <p className='text-sm'>Chittagong, Bangladesh</p>
+                    <p className='text-sm text-gray-400'><FontAwesomeIcon icon={faLocationDot} /> Chittagong, Bangladesh</p>
                 </div>
             </div>
             <div className="author-info flex bg-amber-50 px-12 py-4 mt-8 rounded-lg justify-between">
