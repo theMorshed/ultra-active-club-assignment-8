@@ -12,7 +12,7 @@ const ExcerciseDetails = ({ excerciseTime, breakTime }) => {
             </div>
             <div className='flex bg-amber-50 px-6 py-4 rounded-lg justify-between mt-4'>
                 <h4 className='font-semibold'>Break Time</h4>
-                <p className='text-gray-400'>{savedBreakTime} minutes</p>
+                <p className='text-gray-400'>{savedBreakTime ? savedBreakTime : 0} minutes</p>
             </div>
         </div>
     );
