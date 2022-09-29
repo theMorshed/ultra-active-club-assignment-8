@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SingleExcercise from '../SingleExcercise/SingleExcercise';
 import './Excercises.css';
 
-const Excercises = () => {
+const Excercises = ({handleTime}) => {
     const [excercises, setExcercises] = useState([]);
     useEffect(() => {
         fetch('fakedb.json')
@@ -16,7 +16,7 @@ const Excercises = () => {
             <h2 className='text-2xl mt-10 mb-6'>Select Today's Learning</h2>
             <div className='grid grid-cols-3 gap-5'>
                 {
-                    excercises.map(excercise => <SingleExcercise excercise={excercise} key={excercise.name}></SingleExcercise>)
+                    excercises.map(excercise => <SingleExcercise excercise={excercise} key={excercise.name} handleTime={handleTime}></SingleExcercise>)
                 }
             </div>
         </div>
