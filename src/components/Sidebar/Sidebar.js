@@ -14,7 +14,7 @@ const Sidebar = ({ excerciseTime }) => {
     }
     const notify = () => toast('All Activity Completed Successfully!');
     return (
-        <div className='w-1/4 p-8 bg-white'>
+        <div className='md:w-4/12 xl:w-1/4 p-8 bg-white'>
             <Author></Author>
             <BreakTime handleBreakTime={handleBreakTime}></BreakTime>
             <ExcerciseDetails breakTime={breakTime} excerciseTime={excerciseTime}></ExcerciseDetails>

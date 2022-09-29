@@ -12,8 +12,8 @@ const Main = () => {
     }
 
     return (
-        <div className='flex'>
-            <Excercises handleTime={handleExcerciseTime}></Excercises>
+        <div className='md:flex'>
+            <Excercises handleTime={handleExcerciseTime}></Excercises>            
             <Sidebar excerciseTime={excerciseTime}></Sidebar>            
         </div>
     );
