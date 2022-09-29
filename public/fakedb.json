@@ -3,13 +3,13 @@
         "name": "Watch Video",
         "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
         "time": "35 minutes",
-        "desc": "Watch your programming video certain time."
+        "desc": "Watch programming video or related topics which you try to learn."
     },
     {
         "name": "Read Book",
         "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
         "time": "30 minutes",
-        "desc": "Read some book about your selected topics."
+        "desc": "Read some book or tutorial about your selected topics."
     },
     {
         "name": "Write Code in Editor",
