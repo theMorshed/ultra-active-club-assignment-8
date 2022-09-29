@@ -11,7 +11,7 @@ const Excercises = ({handleTime}) => {
     }, []);
 
     return (
-        <div className='w-3/4 bg-amber-100 px-36 py-20 text-left'>
+        <div className='w-3/4 bg-amber-50 px-36 py-20 text-left'>
             <h1 className='text-4xl font-semibold text-amber-800 uppercase'>Learn-Programming</h1>
             <h2 className='text-2xl mt-10 mb-6'>Select Today's Learning</h2>
             <div className='grid grid-cols-3 gap-5'>

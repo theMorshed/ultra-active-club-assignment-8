@@ -11,12 +11,10 @@ const Main = () => {
         setExcerciseTime(totalTime);
     }
 
-    console.log(excerciseTime);
-
     return (
         <div className='flex'>
             <Excercises handleTime={handleExcerciseTime}></Excercises>
-            <Sidebar></Sidebar>            
+            <Sidebar excerciseTime={excerciseTime}></Sidebar>            
         </div>
     );
 };
